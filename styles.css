@@ -1,1 +1,39 @@
 /* your code */
+table, th, td{
+   border: none;
+   font-size: 15px;
+   padding-left: 1%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    width:50%;
+    border-collapse: collapse;
+}
+td, th{
+    height:30px;
+}
+tr{
+    text-align: left;
+}
+.heading{
+    text-align: left;
+    background-color: #215A8E;
+    color: white;
+    
+}
+.data{
+    background-color:#DDDDDD;
+}
+tr:first-child th:first-child 
+{ 
+    border-top-left-radius: 10px; 
+}
+tr:first-child th:last-child 
+{
+     border-top-right-radius: 10px; 
+}
+
+tbody:last-child td:first-child { border-bottom-left-radius: 10px; }
+tbody:last-child td:last-child { border-bottom-right-radius: 10px; }
+
